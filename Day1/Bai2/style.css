@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+}
+
+.activity {
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    background: yellow;
+    padding: 10px 30px;
+    font-weight: bold;
+    transform: rotate(-30deg);
+    border: 1px solid black;
+}
+
+.container {
+    width: 800px;
+    margin: 80px auto;
+    background: #bfbfbf;
+    border: 2px solid red;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c5edb;
+    margin-bottom: 40px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+label {
+    width: 150px;
+    font-size: 18px;
+}
+
+input, select {
+    width: 500px;
+    height: 35px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+select {
+    width: 100px;
+}
+
+.result {
+    margin: 30px 0;
+    font-size: 40px;
+    color: red;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    margin: 0 20px;
+}
