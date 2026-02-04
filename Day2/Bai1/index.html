@@ -1,3 +1,61 @@
-function myFunction () {
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity - Form Table</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
     
-}
+    <div class="stage">
+        <div class="form-box">
+            <label>Fullname_Customer</label>
+            <input type="text" id="name" value="Name">
+
+            <label>Id_Pro</label>
+            <input type="text" id="id" value="UID">
+
+            <label>Name_Pro</label>
+            <input type="text" id="prdname" value="Name Product">
+
+            <label>Quantity_Pro</label>
+            <input type="text" id="qty" value="Quantity">
+
+            <label>Price_Pro</label>
+            <input type="text" id="price" value="Price">
+
+            <div class="btns">
+                <input type="button" value="Save" onclick="save()">
+                <input type="button" value="Show" onclick="show()">
+                <input type="button" value="Reset" onclick="reset()">
+            </div>
+        </div>
+
+        <div class="table-wrap">
+            <table class="table table-bordered my-table">
+                <thead>
+                    <tr>
+                        <th>Auto_Increment</th>
+                        <th>Fullname_Customer</th>
+                        <th>Id_Pro</th>
+                        <th>Name_Pro</th>
+                        <th>Quantity_Pro</th>
+                        <th>Price_Pro</th>
+                        <th>Discount</th>
+                        <th>Amount</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="tbl"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
