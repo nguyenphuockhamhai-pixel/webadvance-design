@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Shop DEBUG</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body onload="listProducts()">
+
+    <div class="container">
+        <div class="d-flex align-items-center justify-content-between py-3">
+            <div class="d-flex align-items-center">
+                <img class="logo" src="https://blog.muaplus.com/assets/images/logo/3.png" alt="logo">
+                <span class="ml-2 brand">Shop DEBUG</span>
+            </div>
+
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link active" href="#">Trang chủ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menTitle">Thời Trang Nam</a></li>
+                <li class="nav-item"><a class="nav-link" href="#womenTitle">Thời Trang Nữ</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Tin Tức</a></li>
+            </ul>
+
+            <div class="d-flex">
+                <input class="form-control" style="width:220px" placeholder="Tìm Kiếm ...">
+                <button class="btn btn-outline-danger ml-2">Tìm Kiếm</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row" id="men">
+            <div class="col-12">
+                <h1 id="menTitle" class="section-title">THỜI TRANG NAM</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top:20px;margin-bottom:20px;">
+        <div class="row" id="woment">
+            <div class="col-12">
+                <h1 id="womenTitle" class="section-title women">THỜI TRANG NỮ</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="arrobj.js" type="text/javascript"></script>
+</body>
+
+</html>

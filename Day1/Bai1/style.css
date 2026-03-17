@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Activity */
+.activity {
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    background: yellow;
+    padding: 10px 30px;
+    font-weight: bold;
+    transform: rotate(-30deg);
+    border: 1px solid #000;
+}
+
+/* Title */
+.main-title {
+    width: 100%;
+    background: red;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 40px auto;
+    border: 2px solid #4a90e2;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 22px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 15px;
+    color: #4a90e2;
+    cursor: pointer;
+}
+
+.menu .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Content */
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Products */
+.products {
+    width: 55%;
+    display: flex;
+}
+
+.card {
+    width: 45%;
+    margin-right: 5%;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.old {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    width: 45%;
+    background: url("images/banner.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.banner-text button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+}
